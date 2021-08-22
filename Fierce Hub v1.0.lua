@@ -1,6 +1,7 @@
 --Created by Fierce#8888
 --discord.gg/ScythX
---
+--Shorter version of script
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.0.lua", true))()
 
 local FierceHub = Instance.new("ScreenGui")
 local FierceHubFrame = Instance.new("ScrollingFrame")
