@@ -8,7 +8,7 @@ local FierceHubFrame = Instance.new("ScrollingFrame")
 local FierceHubLabel = Instance.new("TextLabel")
 local DashDisplay = Instance.new("TextLabel")
 local InfiniteYield = Instance.new("TextButton")
-local FunkyFriday = Instance.new("TextButton")
+local FunkyFridayFH = Instance.new("TextButton")
 local DarkDex = Instance.new("TextButton")
 local Darkhub = Instance.new("TextButton")
 local DQ = Instance.new("TextButton")
@@ -74,16 +74,16 @@ InfiniteYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'), true))()
 end)
 
-FunkyFriday.Name = "Funky Friday"
-FunkyFriday.Parent = FierceHubFrame
-FunkyFriday.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
-FunkyFriday.Position = UDim2.new(0.148745507, 0, 0.131686449, 0)
+FunkyFridayFH.Name = "Funky Friday FH"
+FunkyFridayFH.Parent = FierceHubFrame
+FunkyFridayFH.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+FunkyFridayFH.Position = UDim2.new(0.148745507, 0, 0.131686449, 0)
 FunkyFriday.Size = UDim2.new(0, 392, 0, 50)
-FunkyFriday.Font = Enum.Font.Cartoon
-FunkyFriday.Text = "Funky Friday"
-FunkyFriday.TextColor3 = Color3.fromRGB(0, 0, 0)
-FunkyFriday.TextSize = 38.000
-FunkyFriday.MouseButton1Down:connect(function()
+FunkyFridayFH.Font = Enum.Font.Cartoon
+FunkyFridayFH.Text = "Funky Friday"
+FunkyFridayFH.TextColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFridayFH.TextSize = 38.000
+FunkyFridayFH.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua", true))()
 end)
 
