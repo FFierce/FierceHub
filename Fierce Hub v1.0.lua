@@ -78,7 +78,7 @@ FunkyFridayFH.Name = "Funky Friday FH"
 FunkyFridayFH.Parent = FierceHubFrame
 FunkyFridayFH.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
 FunkyFridayFH.Position = UDim2.new(0.148745507, 0, 0.131686449, 0)
-FunkyFriday.Size = UDim2.new(0, 392, 0, 50)
+FunkyFridayFH.Size = UDim2.new(0, 392, 0, 50)
 FunkyFridayFH.Font = Enum.Font.Cartoon
 FunkyFridayFH.Text = "Funky Friday"
 FunkyFridayFH.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -123,7 +123,7 @@ DQ.Text = "Dungeon Quest (Boy Hub)"
 DQ.TextColor3 = Color3.fromRGB(0, 0, 0)
 DQ.TextSize = 36.000
 DQ.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua', true))();
 end)
 
 AlphaHubX.Name = "Alpha Hub X"
