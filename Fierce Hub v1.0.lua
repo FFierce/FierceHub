@@ -1,7 +1,8 @@
 --Created by Fierce#8888
 --discord.gg/ScythX
 --Shorter version of script
---loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.0.lua", true))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.1.lua", true))()
+
 
 local FierceHub = Instance.new("ScreenGui")
 local FierceHubFrame = Instance.new("ScrollingFrame")
@@ -19,7 +20,7 @@ local WizardTycoon = Instance.new("TextButton")
 local TheMaze = Instance.new("TextButton")
 local NinjaLegends1 = Instance.new("TextButton")
 local Piggy = Instance.new("TextButton")
-local TestWork = Instance.new("TextButton")
+local KingLegacy = Instance.new("TextButton")
 local YourMomHubv02 = Instance.new("TextButton")
 local Creator = Instance.new("TextLabel")
 local Discord = Instance.new("TextLabel")
@@ -74,7 +75,7 @@ InfiniteYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'), true))()
 end)
 
-FunkyFridayFH.Name = "Funky Friday FH"
+FunkyFridayFH.Name = "FunkyFridayFH"
 FunkyFridayFH.Parent = FierceHubFrame
 FunkyFridayFH.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
 FunkyFridayFH.Position = UDim2.new(0.148745507, 0, 0.131686449, 0)
@@ -123,7 +124,7 @@ DQ.Text = "Dungeon Quest (Boy Hub)"
 DQ.TextColor3 = Color3.fromRGB(0, 0, 0)
 DQ.TextSize = 36.000
 DQ.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua', true))();
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
 end)
 
 AlphaHubX.Name = "Alpha Hub X"
@@ -219,45 +220,17 @@ Piggy.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Piggy"))()
 end)
 
-TestWork.Name = "TestWork"
-TestWork.Parent = FierceHubFrame
-TestWork.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
-TestWork.Position = UDim2.new(0.148745507, 0, 0.824150801, 0)
-TestWork.Size = UDim2.new(0, 392, 0, 50)
-TestWork.Font = Enum.Font.Cartoon
-TestWork.Text = "Test if hub is working (open console)"
-TestWork.TextColor3 = Color3.fromRGB(85, 170, 255)
-TestWork.TextSize = 25.000
-TestWork.MouseButton1Down:connect(function()
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
-	wait(0.0000000000000000000000001)
-	print("Fierce Hub is working!")
+KingLegacy.Name = "KingLegacy"
+KingLegacy.Parent = FierceHubFrame
+KingLegacy.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+KingLegacy.Position = UDim2.new(0.148745507, 0, 0.824150801, 0)
+KingLegacy.Size = UDim2.new(0, 392, 0, 50)
+KingLegacy.Font = Enum.Font.Cartoon
+KingLegacy.Text = "King Legacy"
+KingLegacy.TextColor3 = Color3.fromRGB(85, 170, 255)
+KingLegacy.TextSize = 25.000
+KingLegacy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/BAuSPwcd", true))()
 end)
 
 YourMomHubv02.Name = "Your Mom Hub v0.2"
