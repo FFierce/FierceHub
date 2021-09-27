@@ -2,6 +2,7 @@
 --dsc.gg/ScythX
 --Shorter version of script
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.1.lua", true))()
+--hi
 
 
 local FierceHub = Instance.new("ScreenGui")
