@@ -264,6 +264,6 @@ Discord.BackgroundTransparency = 1.000
 Discord.Position = UDim2.new(0.302867383, 0, 0.960726559, 0)
 Discord.Size = UDim2.new(0, 200, 0, 26)
 Discord.Font = Enum.Font.SourceSans
-Discord.Text = "dsc.gg/Scythx
+Discord.Text = "dsc.gg/Scythx"
 Discord.TextColor3 = Color3.fromRGB(85, 170, 255)
 Discord.TextSize = 14.000
