@@ -1,5 +1,5 @@
 --Created by Fierce#8888
---discord.gg/ScythX
+--scythx.xyz
 --Shorter version of script
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.1.lua", true))()
 
@@ -253,7 +253,7 @@ Creator.BackgroundTransparency = 1.000
 Creator.Position = UDim2.new(0.302867383, 0, 0.943414927, 0)
 Creator.Size = UDim2.new(0, 200, 0, 26)
 Creator.Font = Enum.Font.SourceSans
-Creator.Text = "Created by Fierce#8888"
+Creator.Text = "Created by Fierce"
 Creator.TextColor3 = Color3.fromRGB(85, 85, 255)
 Creator.TextSize = 14.000
 
@@ -264,6 +264,6 @@ Discord.BackgroundTransparency = 1.000
 Discord.Position = UDim2.new(0.302867383, 0, 0.960726559, 0)
 Discord.Size = UDim2.new(0, 200, 0, 26)
 Discord.Font = Enum.Font.SourceSans
-Discord.Text = "discord.gg/ScythX"
+Discord.Text = "dsc.gg/Scythx
 Discord.TextColor3 = Color3.fromRGB(85, 170, 255)
 Discord.TextSize = 14.000
