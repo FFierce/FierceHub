@@ -1,5 +1,5 @@
 --Created by Fierce#8888
---scythx.xyz
+--dsc.gg/ScythX
 --Shorter version of script
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/FFierce/FierceHub/main/Fierce%20Hub%20v1.1.lua", true))()
 
@@ -24,6 +24,7 @@ local KingLegacy = Instance.new("TextButton")
 local YourMomHubv02 = Instance.new("TextButton")
 local Creator = Instance.new("TextLabel")
 local Discord = Instance.new("TextLabel")
+local hubassurance = Instance.new("TextLabel")
 
 
 
@@ -267,3 +268,15 @@ Discord.Font = Enum.Font.SourceSans
 Discord.Text = "dsc.gg/Scythx"
 Discord.TextColor3 = Color3.fromRGB(85, 170, 255)
 Discord.TextSize = 14.000
+
+hubassurance.Name = "hubassurance"
+hubassurance.Parent = FierceHubFrame
+hubassurance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hubassurance.BackgroundTransparency = 1.000
+hubassurance.Position = UDim2.new(0.302867383, 0, 0.960726559, 0)
+hubassurance.Size = UDim2.new(0, 200, 0, 26)
+hubassurance.Font = Enum.Font.SourceSans
+hubassurance.Text = "loading.."
+hubassurance.TextColor3 = Color3.fromRGB(85, 170, 255)
+hubassurance.TextSize = 14.00
+--^Test's if hub is working correctly, if not the hub will not load.
