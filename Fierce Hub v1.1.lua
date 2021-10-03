@@ -31,6 +31,7 @@ FierceHub.Name = "Fierce Hub"
 FierceHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 FierceHub.ResetOnSpawn = false
 FierceHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FierceHub.Draggable = true
 
 FierceHubFrame.Name = "Fierce Hub Frame"
 FierceHubFrame.Parent = FierceHub
